@@ -3,7 +3,9 @@ package com.andoresu.rule34.posts.data;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Post {
+import java.io.Serializable;
+
+public class Post implements Serializable{
 
     @SerializedName("file_url")
     @Expose
